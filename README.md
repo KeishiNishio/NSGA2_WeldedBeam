@@ -1,21 +1,16 @@
-# Evolutionary Computation and NSGA-II for Multi-Objective Optimization
+## NSGA-II Algorithm
 
-このリポジトリは、進化計算とNSGA-II（Non-dominated Sorting Genetic Algorithm II）アルゴリズムを使用して、多目的最適化問題を解くためのリポジトリです。
-進化計算は、生物の進化プロセスをモデルにした計算手法であり、特に複数の目標を持つ問題に適しています。
+The NSGA-II is a powerful algorithm for problems with multiple objectives. It has been developed to identify a set of Pareto-optimal solutions from an evolving population. The computational process is as follows:
 
-## NSGA-IIアルゴリズム
+1. **Generation of Initial Candidates**: Generate candidates randomly and evaluate them against each objective.
 
-NSGA-IIは、特に複数の目標がある問題において強力なアルゴリズムです。これは、進化する個体群からパレート最適解の集合を見つけ出すために開発されています。以下は計算のプロセスです
+2. **Selection and Reproduction**: Select well-balanced candidates and generate new ones.
 
-1. **初期候補の生成**: ランダムに候補を生成し、それぞれの目標に対して評価
+3. **Iteration**: Repeat the above steps, progressively approaching the ideal solution.
 
-2. **選択と再生**: バランスの取れた候補を選び、新しい候補の生成
+## Applications and Advantages
 
-3. **反復**: 上記のステップを繰り返し、理想的な解に近づる
+Evolutionary computation and NSGA-II can be applied to real-world problems, such as simultaneously optimizing the battery life and processor power of smartphones.
 
-## 用途と利点
-
-進化計算とNSGA-IIは、例えばスマートフォンのバッテリー持ちとプロセッサーのパワーを同時に最適化するような、現実世界の問題に適用できます。
-
-## ソースコードの概要
-Welded Beam Problemは、溶接されたビームの設計に関連する複数目的最適化問題で、目的は、コストを最小限に抑えながら、ビームのたわみを制御することである。この問題には、物理的制約がいくつか存在し、それらは溶接されたビームの強度と安定性に直接影響します。
+## Overview of the Source Code
+The Welded Beam Problem is a multi-objective optimization problem related to the design of a welded beam, aiming to minimize cost while controlling the deflection of the beam. This problem includes several physical constraints that directly affect the strength and stability of the welded beam.
