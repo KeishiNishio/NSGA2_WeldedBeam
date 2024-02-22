@@ -12,5 +12,8 @@ The NSGA-II is a powerful algorithm for problems with multiple objectives. It ha
 
 Evolutionary computation and NSGA-II can be applied to real-world problems, such as simultaneously optimizing the battery life and processor power of smartphones.
 
+<img src="https://github.com/KeishiNishio/NSGA2_WeldedBeam/blob/master/parate-front.png" width="400">
+
+
 ## Overview of the Source Code
 The Welded Beam Problem is a multi-objective optimization problem related to the design of a welded beam, aiming to minimize cost while controlling the deflection of the beam. This problem includes several physical constraints that directly affect the strength and stability of the welded beam.
